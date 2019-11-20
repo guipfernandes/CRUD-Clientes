@@ -24,9 +24,6 @@ namespace Cadastro
         {
             InitializeComponent();
             BloqueiaCampos();
-            string path = @"\mydir\";
-            string pathRoot = Directory.GetCurrentDirectory();
-            Console.WriteLine("GetPathRoot('{0}') returns '{1}'", path, pathRoot);
 
             clientesDataGridView.ReadOnly = true;
             clientesDataGridView.AllowUserToAddRows = false;
